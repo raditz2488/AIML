@@ -13,6 +13,8 @@
 		54ED61DE2650239600F91AD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54ED61DD2650239600F91AD4 /* Preview Assets.xcassets */; };
 		54ED61E92650239600F91AD4 /* FDDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED61E82650239600F91AD4 /* FDDemoTests.swift */; };
 		54ED61F42650239600F91AD4 /* FDDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED61F32650239600F91AD4 /* FDDemoUITests.swift */; };
+		54ED6205265023E300F91AD4 /* Faces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED6204265023E300F91AD4 /* Faces.swift */; };
+		54ED620A265027D300F91AD4 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED6209265027D300F91AD4 /* Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		54ED61EF2650239600F91AD4 /* FDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ED61F32650239600F91AD4 /* FDDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDDemoUITests.swift; sourceTree = "<group>"; };
 		54ED61F52650239600F91AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54ED6204265023E300F91AD4 /* Faces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faces.swift; sourceTree = "<group>"; };
+		54ED6209265027D300F91AD4 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				54ED61DA2650239600F91AD4 /* Assets.xcassets */,
 				54ED61DF2650239600F91AD4 /* Info.plist */,
 				54ED61DC2650239600F91AD4 /* Preview Content */,
+				54ED6204265023E300F91AD4 /* Faces.swift */,
+				54ED6209265027D300F91AD4 /* Views.swift */,
 			);
 			path = FDDemo;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54ED620A265027D300F91AD4 /* Views.swift in Sources */,
+				54ED6205265023E300F91AD4 /* Faces.swift in Sources */,
 				54ED61D92650239500F91AD4 /* ContentView.swift in Sources */,
 				54ED61D72650239500F91AD4 /* FDDemoApp.swift in Sources */,
 			);
